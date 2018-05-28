@@ -1,0 +1,23 @@
+.layout{
+
+    width:100px;
+    height:100px;
+    line-height: 100px;
+    text-align: center;
+
+
+    display: table-cell;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    border: 1px solid black;
+}
+
+.table {
+
+    display: table;
+    width: 100%;
+    table-layout: fixed;    /* For cells of equal size */
+}
