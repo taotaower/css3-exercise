@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <!-- saved from url=(0055)http://jadyoap.bj.bcebos.com/ife%2FcssCatAnimation.html -->
+
+<!--
+
+https://github.com/SuperSkylin/toggleStyle/blob/master/03.html  nice code
+-->
 <html class="gr__jadyoap_bj_bcebos_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
         <title>CSS animation for a smiling cat</title>
@@ -20,7 +25,7 @@
                 z-index: 10;
                 background: #fbf8f1;
                 overflow: hidden;
-                transition: all 1s;
+
             }
             /* ear */
             .ear-wrap {
@@ -45,7 +50,6 @@
                 background: #fbf8f1;
                 border-radius: 100% 10% 50% 0% ;
                 transform-origin: 50% 100%;
-                transition: all 1s;
             }
             .ear-wrap .right {
                 left: auto;
@@ -98,7 +102,6 @@
                 position: absolute;
                 left: 50%;
                 margin-left: -23px;
-                transition: all 1s ;
             }
             .eye-bottom {
                 height: 50px;
@@ -168,6 +171,12 @@
                 left: auto;
                 right: 0;
             }
+
+
+            .face , .ear , .face-red, .mouth , .eye-core  {
+                transition: all 1s;
+            }
+
 
             /*鼠标hover样式 写在这里*/
 
